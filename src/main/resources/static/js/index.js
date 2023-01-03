@@ -165,7 +165,7 @@ function changePage(element)
         currentPage -= 1;
         setCloudAnimation(currentPage);
     }
-    else if ((String(element.id) == "second-control") && (currentPage < 2))
+    else if ((String(element.id) == "second-control") && (currentPage < 1))
     {
         currentPage += 1;
         setCloudAnimation(currentPage);
