@@ -674,6 +674,7 @@ body {
 
 .controls > .second {
     left: var(--left-controls-second);
+    opacity: 0.5;
     animation: wiggle-second-control;
     animation-duration: var(--animation-duration-wiggle-second-control);
 }
