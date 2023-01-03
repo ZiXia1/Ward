@@ -235,12 +235,12 @@ function setControlOpacity(newSquareScale)
         case 1:
         {
             firstControl.style.opacity = "0.5";
-            secondControl.style.opacity = "1";
+            secondControl.style.opacity = "0.5";
             break;
         }
         case 2:
         {
-            firstControl.style.opacity = "1";
+            firstControl.style.opacity = "0.5";
             secondControl.style.opacity = "0.5";
             break;
         }
